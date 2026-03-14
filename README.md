@@ -1,176 +1,164 @@
 🏥 Lown Hospital Index for Equity – Data Analysis Project
-<p align="center"> <img src="https://i.ibb.co/5WCvsNf/Hospital-Ranking2.png" width="650"> </p>
+<p align="center"> <img src="https://i.ibb.co/5WCvsNf/Hospital-Ranking2.png" width="700"> </p> <p align="center">
+
+
+
+
+
+
+
+
+</p>
 📌 Project Overview
 
 This project analyzes the Lown Hospital Index for Equity (2022) dataset to evaluate how hospitals perform across key healthcare equity metrics such as pay equity, community benefit, and inclusivity.
 
-Using Excel, MySQL, and Tableau, the project performs data cleaning, SQL-based exploratory analysis, and visualization through an interactive dashboard to uncover patterns in hospital rankings, inclusivity measures, and geographic distribution.
+The project demonstrates a complete data analytics workflow:
 
-The objective is to demonstrate data analysis, business intelligence, and insight generation skills relevant to Data Analyst and Business Analyst roles.
+Data Cleaning → SQL Analysis → Business Insights → Data Visualization
 
-🛠 Tools & Technologies
+The final insights are presented through an interactive Tableau dashboard.
 
-Excel → Data cleaning and preprocessing
-
-MySQL → Data exploration and SQL analysis
-
-Tableau → Interactive dashboard and visualization
-
+🛠 Tools Used
+Tool	Purpose
+Excel	Data cleaning and preparation
+MySQL	SQL-based exploratory data analysis
+Tableau	Interactive dashboard and visualization
 📂 Dataset
 
-Lown Hospital Index for Equity (2022)
+📊 Lown Hospital Index for Equity (2022)
 
 🔗 Dataset
 https://data.world/zendoll27/lown-hospital-index-for-equity-2022
 
-🔎 SQL Analysis
+💻 SQL Analysis
 
-The SQL queries used for analysis can be found here:
+The SQL queries used for the analysis can be found here:
 
 🔗 SQL Code
 https://github.com/PoddarVivek/Lown-Hospital-Index-for-Equity-SQL/blob/main/SQL%20Analysis%20-%20Lown%20Hospital%20Index%20for%20Equity.sql
 
 📊 Tableau Dashboard
 
-Interactive visualization of the analysis results.
+Interactive visualization of hospital equity metrics.
 
-🔗 Dashboard
+🔗 View Dashboard
 https://public.tableau.com/app/profile/sharif.athar/viz/LownHospitalIndexforEquity-ProjectHealthViz/Dashboard1
 
-📈 Analysis Workflow
-1️⃣ Data Collection & Cleaning
+🔎 Analysis Workflow
+1️⃣ Data Preparation
 
-Downloaded dataset from Data.World
+Downloaded dataset
 
-Cleaned and structured the data using Excel
+Cleaned and structured data in Excel
 
-Converted dataset to JSON format for database import
+Converted dataset to JSON format
 
-Loaded data into MySQL for analysis
+Imported data into MySQL
 
-2️⃣ Data Exploration (SQL)
+2️⃣ SQL Data Analysis
 
-Performed SQL analysis to understand hospital equity metrics including:
+Performed SQL queries to analyze:
 
-Pay Equity
-
-Community Benefit
-
-Inclusivity indicators
-
-Hospital rankings (Tier 1 – Tier 4)
-
-Key SQL concepts used:
-
-Aggregations (COUNT, GROUP BY)
-
-Filtering (WHERE)
-
-Sorting (ORDER BY)
-
-Data categorization
-
-3️⃣ Inclusivity Analysis
-
-Explored healthcare inclusivity by examining:
-
-Income inclusivity
-
-Racial inclusivity
-
-Education inclusivity
-
-4️⃣ Hospital Ranking Analysis
-
-Identified Top 10 hospitals
-
-Identified Bottom 10 hospitals
-
-Analyzed grade distribution across hospitals
-
-5️⃣ Data Visualization
-
-Built an interactive Tableau dashboard to present insights including:
-
-Hospital distribution by state
-
-Equity grade breakdown
+Hospital equity metrics
 
 Inclusivity scores
 
-Hospital ranking performance
+Hospital rankings (Tier 1 – Tier 4)
 
-⚠️ Challenges
+Geographic hospital distribution
 
-During the project, the dataset download appeared incomplete.
+SQL concepts used:
 
-Although the dataset originally contained 4000 records, only 1789 rows were available after multiple download attempts.
+GROUP BY
 
-This limitation reduced the sample size and may affect the completeness of the insights. However, the dataset was still sufficient to perform meaningful exploratory analysis and visualization.
+COUNT
 
-📊 Key Insights
-Hospital Size Distribution
+ORDER BY
 
-Large hospitals: 442
+WHERE
 
-Extra Small hospitals: 441
+Aggregation functions
 
-Medium hospitals: 433
+3️⃣ Inclusivity Analysis
 
-Extra Large hospitals: 259
+Explored three key inclusivity indicators:
 
-Small hospitals: 214
+Income Inclusivity
 
-Geographic Distribution
+Racial Inclusivity
 
-California has the highest number of hospitals (122)
+Education Inclusivity
 
-Followed by Illinois, Ohio, New York, and Texas
+4️⃣ Visualization
 
-Urban vs Rural Hospitals
+Created an interactive Tableau dashboard to communicate insights visually.
 
-Urban hospitals: 1352
+📈 Key Insights
+🏥 Hospital Size Distribution
 
-Rural hospitals: 437
+Large hospitals → 442
 
-Hospital Ownership
+Extra Small → 441
 
-The majority of hospitals in the dataset are non-profit institutions.
+Medium → 433
 
-Ranking Performance
+Extra Large → 259
+
+Small → 214
+
+🌎 Geographic Distribution
+
+States with the most hospitals:
+
+California
+
+Illinois
+
+Ohio
+
+New York
+
+Texas
+
+🏙 Location Type
+
+Urban hospitals → 1352
+
+Rural hospitals → 437
+
+🏆 Top Ranked Hospital
 
 Adventist Health Howard Memorial ranked highest in the Lown Composite Index.
 
-Most hospitals received Grade B in inclusivity metrics.
+📊 Equity & Inclusivity Grades
 
-Equity scores were most commonly Grade B or C.
+Most hospitals received Grade B in inclusivity
 
-🎯 Business Insights
+Equity grades were mostly B or C
 
-The analysis highlights several important trends:
+⚠️ Challenges
 
-Healthcare equity varies significantly across hospitals and states.
+The dataset originally contained 4000 rows, but only 1789 rows were accessible after multiple downloads.
 
-Most hospitals perform moderately in equity and inclusivity metrics.
+This reduced the sample size and may slightly impact the completeness of the insights.
 
-Urban hospitals dominate the dataset, indicating possible disparities in rural healthcare access.
+Despite this limitation, the dataset still allowed meaningful exploratory analysis and visualization.
 
-Non-profit institutions make up the majority of hospitals providing equitable healthcare services.
+🎯 Skills Demonstrated
 
-These insights can help policymakers and healthcare organizations better understand equity gaps in healthcare systems.
+This project highlights skills relevant for Data Analyst and Business Analyst roles:
 
-💡 Skills Demonstrated
+Data Cleaning
 
-This project demonstrates skills relevant for Data Analyst / Business Analyst roles, including:
+SQL Querying
 
-Data cleaning and preparation
+Exploratory Data Analysis
 
-SQL data analysis
+Business Insight Generation
 
-Exploratory data analysis (EDA)
+Data Visualization
 
-Data visualization
+Dashboard Design
 
-Business insight generation
-
-Dashboard design
+⭐ If you found this project interesting, feel free to star the repository!
